@@ -1,0 +1,8 @@
+{
+  "name": "Gerador de Postagens",
+  "short_name": "Postagens",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#020617",
+  "theme_color": "#f97316"
+}

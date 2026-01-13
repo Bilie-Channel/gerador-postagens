@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Gerador de Postagens</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="manifest" href="manifest.json">
+  <style>
+    body {
+      background: #0f172a;
+      color: #e5e7eb;
+      font-family: Arial, sans-serif;
+      padding: 20px;
+    }
+    input, textarea, button {
+      width: 100%;
+      margin-top: 10px;
+      padding: 12px;
+      border-radius: 6px;
+      border: none;
+    }
+    button {
+      background: #f97316;
+      font-weight: bold;
+      cursor: pointer;
+    }
+    textarea {
+      height: 180px;
+    }
+  </style>
+</head>
+<body>
+
+  <h2>Gerador de Postagens</h2>
+
+  <input id="link" placeholder="Link do produto">
+  <input id="valor" placeholder="Valor">
+  <input id="cupom" placeholder="Cupom">
+
+  <button onclick="gerar()">Gerar Postagem</button>
+
+  <textarea id="preview" readonly></textarea>
+
+  <script src="app.js"></script>
+</body>
+</html>
